@@ -1,0 +1,7 @@
+# Copy this file to local.properties and fill in real values.
+# DO NOT commit local.properties to source control.
+
+sdk.dir=C\:\\Users\\<YOU>\\AppData\\Local\\Android\\Sdk
+
+MAPS_API_KEY=YOUR_GOOGLE_MAPS_API_KEY
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY

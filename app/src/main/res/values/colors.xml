@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette mirrors the original theme.js -->
+    <color name="primary">#DC143C</color>
+    <color name="primary_dark">#B01030</color>
+    <color name="secondary">#FF6B6B</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F8F9FA</color>
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="success">#27AE60</color>
+    <color name="warning">#F39C12</color>
+    <color name="error">#E74C3C</color>
+    <color name="info">#3498DB</color>
+    <color name="border">#E1E8ED</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Priority colours used by Blood Request -->
+    <color name="priority_normal">#27AE60</color>
+    <color name="priority_urgent">#F39C12</color>
+    <color name="priority_emergency">#E74C3C</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_sm"
+    app:cardCornerRadius="@dimen/radius_lg"
+    app:cardElevation="@dimen/elevation_sm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_md">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/text_blood_group"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_blood_group_chip"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_md"
+                android:textStyle="bold"
+                tools:text="O+" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_md"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_patient_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
+                    android:textSize="@dimen/font_md"
+                    android:textStyle="bold"
+                    tools:text="Aravind Kumar" />
+
+                <TextView
+                    android:id="@+id/text_hospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="@dimen/font_sm"
+                    tools:text="Apollo Hospital, Chennai" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_priority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_priority_emergency"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_xs"
+                android:textStyle="bold"
+                tools:text="EMERGENCY" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_meta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:textColor="@color/text_primary"
+            android:textSize="@dimen/font_sm"
+            tools:text="2 units needed  •  required by Aug 22, 2026" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,27 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Android Studio / IDEA
+.idea/
+*.iml
+captures/
+
+# Secrets
+google-services.json
+*.keystore
+*.jks
+keystore.properties

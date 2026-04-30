@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LifeSaver</string>
+    <string name="app_tagline">Connecting Donors  •  Saving Lives</string>
+
+    <!-- FCM -->
+    <string name="default_notification_channel_id">lifesaver_default</string>
+    <string name="default_notification_channel_name">LifeSaver Alerts</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="role_donor">Donor</string>
+    <string name="role_patient">Patient / Family</string>
+    <string name="role_ngo">NGO / Hospital</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account? Sign up</string>
+    <string name="already_have_account">Already have an account? Login</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_find_blood">Find Blood</string>
+    <string name="tab_become_donor">Donor</string>
+    <string name="tab_tracker">Tracker</string>
+    <string name="tab_awareness">Awareness</string>
+
+    <!-- Home -->
+    <string name="nearby_camps">Nearby Blood Camps</string>
+    <string name="emergency_requests">Emergency Requests</string>
+    <string name="view_map">View Map</string>
+    <string name="view_list">View List</string>
+
+    <!-- Common -->
+    <string name="km_away">%1$.1f km away</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="loading">Loading…</string>
+    <string name="no_data">No data available</string>
+</resources>

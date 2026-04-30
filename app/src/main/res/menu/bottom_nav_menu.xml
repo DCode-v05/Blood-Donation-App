@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/tab_home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/nav_find_blood"
+        android:title="@string/tab_find_blood"
+        android:icon="@drawable/ic_search" />
+    <item
+        android:id="@+id/nav_become_donor"
+        android:title="@string/tab_become_donor"
+        android:icon="@drawable/ic_heart" />
+    <item
+        android:id="@+id/nav_tracker"
+        android:title="@string/tab_tracker"
+        android:icon="@drawable/ic_analytics" />
+    <item
+        android:id="@+id/nav_awareness"
+        android:title="@string/tab_awareness"
+        android:icon="@drawable/ic_lightbulb" />
+</menu>
